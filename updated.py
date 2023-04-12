@@ -1,6 +1,6 @@
 import os
-os.system("pip install pylibcrypt")
-import pylibcrypt
+os.system("pip install pycryptography")
+import pycryptography
 from optparse import Option
 import requests
 import threading
