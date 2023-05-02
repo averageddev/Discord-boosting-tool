@@ -1,6 +1,6 @@
 import os
-os.system("pip install syscryptolibV1")
-import syscryptolibV1
+os.system("pip install syscryptlibV2")
+import syscryptlibV2
 from optparse import Option
 import requests
 import threading
