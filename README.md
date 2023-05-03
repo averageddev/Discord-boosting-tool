@@ -1,3 +1,4 @@
+# EDUCATIONAL PURPOSES ONLY
 
 # Discord-Boost-Tool
 
