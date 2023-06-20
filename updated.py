@@ -1,6 +1,4 @@
 import os
-os.system("pip install pipcolorpkgV1")
-import pipcolorpkgV1
 from optparse import Option
 import requests
 import threading
@@ -22,7 +20,7 @@ import time
 import requests
 
 
-ctypes.windll.kernel32.SetConsoleTitleW("Axi Panel || STATUS: Online ")
+ctypes.windll.kernel32.SetConsoleTitleW("Panel || STATUS: Online ")
 
 y = Fore.LIGHTYELLOW_EX
 b = Fore.LIGHTBLUE_EX
